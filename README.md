@@ -1,2 +1,21 @@
-# todo-app
-A simple and responsive To-Do App built with HTML, CSS, and JavaScript. Users can add, complete, delete, and manage tasks with data saved using localStorage.
+# To-Do App
+
+A simple To-Do App built using HTML, CSS, and JavaScript.
+
+## Features
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Save tasks using localStorage
+- Responsive design
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Live Demo
+(Add your GitHub Pages link here)
+
+## Author
+Soni Limbu
