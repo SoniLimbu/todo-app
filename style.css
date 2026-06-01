@@ -1,0 +1,82 @@
+/* Reset default browser styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Center app on page */
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* Main card */
+.container{
+    background:white;
+    width:400px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Input section */
+.input-box{
+    display:flex;
+    gap:10px;
+}
+
+/* Input field */
+input{
+    flex:1;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Add button */
+button{
+    padding:10px 15px;
+    border:none;
+    background:#4caf50;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#45a049;
+}
+
+/* Task list */
+ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+/* Single task */
+li{
+    background:#f9f9f9;
+    padding:10px;
+    margin-top:10px;
+    border-radius:5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* Completed task */
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
