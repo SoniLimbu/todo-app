@@ -15,7 +15,7 @@ A simple To-Do App built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-(Add your GitHub Pages link here)
+(https://github.com/SoniLimbu/todo-app/edit/main/README.md)
 
 ## Author
 Soni Limbu
