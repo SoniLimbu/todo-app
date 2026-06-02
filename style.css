@@ -1,82 +1,127 @@
-/* Reset default browser styles */
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
 }
 
-/* Center app on page */
-body{
-    background:#f4f4f4;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+/* Modern gradient background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* soft modern gradient */
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7, #a18cd1);
+    background-size: 300% 300%;
+    animation: gradientMove 8s ease infinite;
 }
 
-/* Main card */
-.container{
-    background:white;
-    width:400px;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+/* background animation */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
-/* Heading */
-h1{
-    text-align:center;
-    margin-bottom:20px;
+/* Glass effect card */
+.container {
+    width: 420px;
+    padding: 25px;
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+    color: white;
 }
 
-/* Input section */
-.input-box{
-    display:flex;
-    gap:10px;
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Input area */
+.input-box {
+    display: flex;
+    gap: 10px;
 }
 
 /* Input field */
-input{
-    flex:1;
-    padding:10px;
-    border:1px solid #ccc;
-    border-radius:5px;
+input {
+    flex: 1;
+    padding: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
 }
 
-/* Add button */
-button{
-    padding:10px 15px;
-    border:none;
-    background:#4caf50;
-    color:white;
-    border-radius:5px;
-    cursor:pointer;
+/* Buttons (modern style) */
+button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #333;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-button:hover{
-    background:#45a049;
+/* hover effect */
+button:hover {
+    transform: scale(1.05);
+    background: #f1f1f1;
+}
+
+/* Controls */
+.controls {
+    margin-top: 12px;
+    text-align: center;
 }
 
 /* Task list */
-ul{
-    list-style:none;
-    margin-top:20px;
+ul {
+    list-style: none;
+    margin-top: 20px;
 }
 
-/* Single task */
-li{
-    background:#f9f9f9;
-    padding:10px;
-    margin-top:10px;
-    border-radius:5px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+/* Task card */
+li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    backdrop-filter: blur(8px);
 }
 
-/* Completed task */
-.completed{
-    text-decoration:line-through;
-    color:gray;
+/* completed task */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* important task */
+.important {
+    font-weight: bold;
+    color: hsla(357, 100%, 64%, 0.904);
 }
