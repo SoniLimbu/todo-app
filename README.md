@@ -23,10 +23,10 @@ A simple and modern To-Do List web application built using HTML, CSS, and JavaSc
 - LocalStorage API
 
 ## 📸 Preview
-(Add screenshot here)
+<img width="1356" height="635" alt="image" src="https://github.com/user-attachments/assets/711dc67e-f822-4dc3-8a85-de2e038e95cb" />)
 
 ## 🔗 Live Demo
-(Add Netlify/GitHub Pages link here)
+(https://app-todo11.netlify.app/)
 
 ## 📌 What I learned
 - DOM manipulation
