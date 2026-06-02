@@ -1,21 +1,35 @@
-# To-Do App
+# 📝 Todo App
 
-A simple To-Do App built using HTML, CSS, and JavaScript.
+A simple and modern To-Do List web application built using HTML, CSS, and JavaScript.
 
-## Features
+## 🚀 Features
 - Add new tasks
-- Mark tasks as completed
+- Edit tasks
 - Delete tasks
-- Save tasks using localStorage
-- Responsive design
+- Mark tasks as completed
+- Mark important tasks ⭐
+- Clear completed tasks
+- Data saved in Local Storage
 
-## Technologies Used
+## 🎨 UI
+- Glassmorphism design
+- Animated gradient background
+- Responsive layout
+
+## 💻 Tech Stack
 - HTML
 - CSS
 - JavaScript
+- LocalStorage API
 
-## Live Demo
-(https://github.com/SoniLimbu/todo-app/edit/main/README.md)
+## 📸 Preview
+(Add screenshot here)
 
-## Author
-Soni Limbu
+## 🔗 Live Demo
+(Add Netlify/GitHub Pages link here)
+
+## 📌 What I learned
+- DOM manipulation
+- Array methods (map, filter)
+- LocalStorage
+- Event handling
